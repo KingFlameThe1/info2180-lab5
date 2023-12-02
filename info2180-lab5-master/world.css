@@ -1,1 +1,85 @@
 /* Add your own styles */
+
+body{
+	margin: auto auto;
+	background-color: rgb(245, 246, 255);
+	text-align: center;
+}
+
+#controls{
+	margin: auto auto auto;
+	justify-content: center;
+	
+}
+
+h1{
+	margin: 15px 45px 45px;
+	background-color: slategrey;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	border-radius : 15px;
+}
+
+#country{
+	padding: 20px;
+	border-style: none;
+	height: 50px;
+	width: 650px;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+#btns{
+	padding: 15px;
+}
+
+button{
+	border-style: none;
+	height: 50px;
+	width: 150px;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+#lookup-country{
+	border-radius: 5px;
+	margin-right: 10px;
+	padding-left: 10px;
+	color: white;
+	font-size: 15px;
+	background-color: rgb(69, 188, 148);
+}
+
+#lookup-city{
+	padding-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	background-color: rgb(114, 191, 217);
+}
+
+#result{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+	box-shadow: 2px 2px 2px 3px lightgrey;
+}
+
+th{
+	height: 50px;
+	text-align: center;
+}
+
+td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #dbdbdb
+}
